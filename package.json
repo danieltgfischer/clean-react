@@ -10,7 +10,7 @@
     "test": "jest --passWithNoTests",
     "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- --findRelatedTests",
-    "text:ci": "npm test -- --coverage"
+    "test:ci": "npm test -- --coverage"
   },
   "dependencies": {
     "react": "^19.0.0",
