@@ -8,9 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --passWithNoTests",
-    "test:watch": "bun test -- --watch",
-    "test:staged": "bun test -- --findRelatedTests",
-    "text:ci": "bun test -- --coverage"
+    "test:watch": "npm test -- --watch",
+    "test:staged": "npm test -- --findRelatedTests",
+    "text:ci": "npm test -- --coverage"
   },
   "dependencies": {
     "react": "^19.0.0",
